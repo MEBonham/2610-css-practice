@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Linux Commands Cheatsheet to practice HTML5 -->
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Linux Command Cheatsheet</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="topRightImage"><img src="/1444835774tux.jpg" alt="linux penguin" id="penguin" /></div>
+	<h1>Linux Command Cheatsheet</h1>
+	<h2>Introduction</h2>
+	<p>This website is meant to be a quick reference for Linux Command Line commands. For a more thorough treatment of 
+	these commands on another reference site, see (for example) 
+	<a href="http://www.mediacollege.com/linux/command/linux-command.html">Media College</a>.</p>
+	<p class="hidden">This text shouldn't show up at all.</p>
+	<p id="noticeMe">To find this project on GitHub, click <a href="">here</a>.</p>
+	<p>To see the validator results, click 
+	<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcs2610-linux-cheetsheet-mebonham.c9users.io%2Fcheatsheet.html">here</a>.</p>
+	<h2>Commands</h2>
+	<div class="centered">
+		<table>
+			<thead>
+				<tr>
+					<th>Command</th>
+					<th class="center-column">What's It Do?</th>
+					<th>Example Usage</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><pre>ls</pre></td>
+					<td class="center-column">View contents of working directory.</td>
+					<td><pre><span class="entries">ls</span><br/>Desktop Downloads Documents<br/>bin Pictures Videos</pre></td>
+				</tr>
+				<tr>
+					<td><pre>cd</pre></td>
+					<td class="center-column">Change working directory.</td>
+					<td><pre><span class="entries">cd ..</span></pre><em>(Moves to parent directory)</em></td>
+				</tr>
+				<tr>
+					<td><pre>mkdir</pre></td>
+					<td class="center-column">Create a new directory within the working directory.</td>
+					<td><pre><span class="entries">mkdir New-Project</span></pre></td>
+				</tr>
+				<tr>
+					<td><pre>pwd</pre></td>
+					<td class="center-column">Print out current working directory path.</td>
+					<td><pre><span class="entries">pwd</span><br/>/home/mckay</pre></td>
+				</tr>
+				<tr>
+					<td><pre>man</pre></td>
+					<td class="center-column">Display the manual entry for another command.</td>
+					<td><pre><span class="entries">man mkdir</span><br/>Man: find all matching manual pages<br/>Man: What manual page do you want?</pre></td>
+				</tr>
+				<tr>
+					<td><pre>apropos</pre></td>
+					<td class="center-column">Search by keyword for a new command to use.</td>
+					<td><pre><span class="entries">apropos view</span><br/>aio (7) - POSIX asynchronous I/O overview<br/>bzless (1) file perusal filter ...<br/>...</pre></td>
+				</tr>
+				<tr>
+					<td><pre>file</pre></td>
+					<td class="center-column">Show the type of a file.</td>
+					<td><pre><span class="entries">file commonheader.tex</span><br/>TeX document, ASCII text</pre></td>
+				</tr>
+				<tr>
+					<td><pre>cat</pre></td>
+					<td class="center-column">Display the contents of a file to the command line.</td>
+					<td><pre><span class="entries">cat commonheader.tex</span><br/>\usepackage{graphicx} ...<br/>...</pre></td>
+				</tr>
+				<tr>
+					<td><pre>less</pre></td>
+					<td class="center-column">Display the contents of a file one screen at a time.</td>
+					<td><pre><span class="entries">less commonheader.tex</span></pre><em>(Displays whole new screen, exit with 'q')</em></td>
+				</tr>
+				<tr>
+					<td><pre>type</pre></td>
+					<td class="center-column">Tell what kind of command another command is.</td>
+					<td><pre><span class="entries">type less</span><br/>less is hashed (/usr/bin/less)</pre></td>
+				</tr>
+				<tr>
+					<td><pre>which</pre></td>
+					<td class="center-column">Tell where the code for another command is located.</td>
+					<td><pre><span class="entries">which less</span><br/>/usr/bin/less</pre></td>
+				</tr>
+				<tr>
+					<td><pre>rm</pre></td>
+					<td class="center-column">Delete a file.</td>
+					<td><pre><span class="entries">rm dummy.txt</span></pre></td>
+				</tr>
+				<tr>
+					<td><pre>rmdir</pre></td>
+					<td class="center-column">Delete a folder.</td>
+					<td><pre><span class="entries">rmdir Dummy</span></pre></td>
+				</tr>
+				<tr>
+					<td><pre>mv</pre></td>
+					<td class="center-column">Move (or rename) a file.</td>
+					<td><pre><span class="entries">mv starting-out-with-c.pdf ~/Documents</span></pre></td>
+				</tr>
+				<tr>
+					<td><pre></pre></td>
+					<td class="center-column"></td>
+					<td><pre><span class="entries"></span></pre></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

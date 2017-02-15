@@ -1,0 +1,57 @@
+body {
+	margin: 20px;
+	background-image: url("seigaiha.png");
+}
+#topRightImage {
+    float: right;
+    margin: 20px;
+}
+#penguin {
+	width: 150px;
+}
+#noticeMe {
+	font-size: 1.7em;
+	font-weight: bold;
+	font-family: cursive, serif;
+	text-align: center;
+}
+.centered {
+	margin: auto;
+	width: 60%;
+}
+.entries {
+	color: blue;
+}
+.hidden {
+	display: none;
+}
+a:visited {
+	color: pink;
+}
+td:first-of-type {
+	padding-left: 10px;
+}
+th:nth-child(2) {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+td:nth-child(2) {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+th:nth-child(3) {
+	padding-left: 10px;
+}
+td:nth-child(3) {
+	padding-left: 10px;
+}
+tbody > tr:nth-child(odd) {
+	background-color: white;
+}
+tbody > tr:hover {
+	background-color: #ccffcc;
+}
+td {
+	border: 1px solid black;
+	vertical-align: top;
+}
